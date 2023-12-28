@@ -1,0 +1,188 @@
+/* this is for html and body */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  color: #000000;
+  font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  background-color: #f8efea;
+  margin: 0%;
+  display: block;
+  box-sizing: border-box;
+  flex-direction: column;
+
+}
+
+/* this is to provide space between the name and the nav bar*/
+#intro{
+  margin-top: 15%;
+}
+
+/* this is for the texts and words to be centered */
+h1, h2, h3, p {
+  text-align: center;
+  font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
+  display: block;
+  font-display: block;
+}
+
+/* this is for the container */
+.container {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  
+}
+
+/* i think this is for the logo on the left ; i will add that later*/
+#bar{
+  height:50px;
+  width:50px;
+  float:left;
+  border:20%;
+  border-color: #ffffff;
+}
+/* this is for the color background of the skills section*/
+#skills {
+  background-color: #f4cee2;
+  padding: 20px;
+  
+}
+/* this is for the color backgrounf of the projects section*/
+#projects{
+  background-color: #f4cee2;
+  padding: 10px;
+}
+
+/* this is for the nav bar (home) */
+.nav a {
+  color: #f39aca; 
+  float: right;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
+  
+}
+
+/* this is for the hyperlink word (website)*/
+a {
+  font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
+}
+
+/*this is to provide space at the bottom between project section and copyright*/
+#projects{
+  margin-bottom: 10%;
+}
+
+/* this section is for the pictures on the nav bar that will direct*/
+.home-image {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-top: 0px;
+}
+/* ^^ */
+.project-image{
+  float: right;
+  width: 60px;
+  height: 60px;
+  margin-top: 0px;
+}
+/*^*/
+.experience-image{
+  float: right;
+  width: 50px;
+  height: 50px;
+  margin-top: 0px;
+  margin-right: 20px;
+}
+
+/*^^*/
+.skills-image{
+  float: right;
+  width: 50px;
+  height: 50px;
+  margin-top: 0px;
+  margin-right: 20px;
+  
+}
+.nav-bar {
+  margin-left: 90%;
+  margin-right: 90%;
+  display: flex;
+}
+
+/* the following parts are to put the skill picture into the skill section*/
+.skills-heading {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: center;
+}
+
+.skills-icon {
+  width: 100px; /* Adjust the width of the image as needed */
+  height: 100px; /* Adjust the height of the image as needed */
+  margin-right: 15px; /* Add some spacing between the text and image */
+}
+.skills-heading img{
+  width: 50px; /* Adjust the width of the image as needed */
+  height: 50px;
+  margin-top: 0%;
+}
+
+/* this is for the experience section and its icon picture*/
+.experience-heading{
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: center;
+}
+.experience-icon{
+  width: 100px; /* Adjust the width of the image as needed */
+  height: 100px; /* Adjust the height of the image as needed */
+  margin-right: 15px;
+}
+.experience-heading img{
+  width: 50px; /* Adjust the width of the image as needed */
+  height: 50px;
+  margin-top: 0%;
+}
+
+/* this is for the projects section and its icon picture*/
+.projects-heading{
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: center;
+}
+.projects-icon{
+  width: 100px; /* Adjust the width of the image as needed */
+  height: 100px; /* Adjust the height of the image as needed */
+  margin-right: 15px;
+}
+.projects-heading img{
+  width: 50px; /* Adjust the width of the image as needed */
+  height: 50px;
+  margin-top: 0%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedin-image, .github-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 25px;
+}
+
+
+
+.linkedin-image, .github-image{
+  width: 50px;
+  height: 50px;
+}
