@@ -7,7 +7,8 @@ html, body {
   margin-right: 0px;
   margin-left: 0px;
   color: #000000;
-  font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: lighter;
   font-size: 20px;
   background-color: #f8efea;
   margin: 0%;
@@ -25,7 +26,8 @@ html, body {
 /* this is for the texts and words to be centered */
 h1, h2, h3, p {
   text-align: center;
-  font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: lighter;
   display: block;
   font-display: block;
 }
@@ -64,13 +66,16 @@ h1, h2, h3, p {
   float: right;
   font-size: 1.5em;
   text-decoration: none;
-  font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: lighter;
   
 }
 
 /* this is for the hyperlink word (website)*/
 a {
-  font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: lighter;
+  
 }
 
 /*this is to provide space at the bottom between project section and copyright*/
@@ -185,4 +190,8 @@ a {
 .linkedin-image, .github-image{
   width: 50px;
   height: 50px;
+}
+
+footer{
+  padding-bottom: 5%;
 }
